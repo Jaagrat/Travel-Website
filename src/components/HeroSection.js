@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../App.css';
 import { Button } from './Button';
+import Cards from './Cards';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -10,6 +11,7 @@ function HeroSection() {
             <h1>ADVENTURE AWAITS</h1>
             <p>What are you waiting for?</p>
             <div className="hero-btns">
+            
                 <Button 
                     className='btns' 
                     buttonStyle='btn--outline' 
@@ -17,6 +19,7 @@ function HeroSection() {
                 >
                 GET STARTED
                 </Button>
+              
                 <Button 
                     className='btns' 
                     buttonStyle='btn--primary' 

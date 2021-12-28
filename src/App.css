@@ -8,6 +8,7 @@
   .home,
   .services,
   .products,
+  .maps,
   .sign-up {
     display: flex;
     height: 90vh;
@@ -34,6 +35,15 @@
     font-size: 100px;
   }
   
+  .maps {
+    background-image: url('images/img-1.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
   .sign-up {
     background-image: url('images/img-8.jpg');
     background-position: center;
